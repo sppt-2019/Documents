@@ -5,3 +5,6 @@ Tobias will reserve (and collect) books from the library.
 
 #Friday:
 If we get the books this day will be reserved for reading.
+
+# Before Wednesday 13./02.
+Create a decision tree over possible subjects to explore.
