@@ -18,4 +18,4 @@ This format, called `OpenGEX` facilitates import/export of scene information. Th
   <img src="images/opengex.png" width="80%">
 </div>
 
- To manage these files a small language called `OpenDDL` was written. The purpose was to provide a human-readable generic syntax for expressing data. It resembles C/C++ with elements of JSON.
+ To manage these files a small language called `OpenDDL` was written. The purpose was to provide a human-readable generic syntax for expressing data. It resembles C/C++ with elements of JSON. The rest of the chapter specifies the format in great detail.
