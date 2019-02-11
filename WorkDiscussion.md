@@ -1,4 +1,4 @@
-# Pratical Stuff:
+# Practical Stuff:
 
 - Thursday is reserved for external work
 - Tobias has company-wide stand up Monday at 9.00
