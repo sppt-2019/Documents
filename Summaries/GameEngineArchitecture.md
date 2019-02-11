@@ -16,3 +16,39 @@ It continues with a discussion of different C/C++ compilers and gives a rather d
 The two next sections covers profiling tools, underlining that these are of utmost importance in game engine development. The section suggests both performance and memory profilers.
 
 The last section presents a list of other tools that may also be handy during game engine development, such as diff and merge tools, along with hex editors.
+
+## Chapter 3: Fundamentals of Software Engineering for Games
+This chapter presents an overview of object-oriented programming with a root in C++. As this stuff should be quite familiar to both of us, I will only highlight the topics that stood out to me when I read the chapter.
+
+**Multiple Inheritance**: C++ allows multiple inheritance. The chapter states that it should primary be used with mix-in classes, which are simple classes that have no parent, as this allows additional functionality to be introduced at arbitrary points in the inheritance tree.
+
+**Resource Allocation is Initialization (RAII)**: Design pattern that treats resource allocation as classes. In this pattern a local instance of a *Janitor*-class is allocated before allocating a resource. When the local instance drops out of scope the class's destructor is called, which deallocates the resource. This could be used for dynamic memory management with the `AllocJanitor` class:
+```C++ 
+class AllocJanitor { 
+    public: explicit AllocJanitor(mem::Context context) { 
+        mem:: PushAllocator (context);
+    } 
+    ~AllocJanitor() { 
+        mem:: PopAllocator (); 
+        }
+    };
+```
+And in use:
+```C++
+void f() { 
+    // do some work...
+    
+    // allocate temp buffers from single-frame allocator 
+    { 
+        AllocJanitor janitor (mem::Context::kSingleFrame);
+        U8* pByteBuffer = new U8[SIZE];
+        float* pFloatBuffer = new float[SIZE];
+        
+        // use buffers...
+        
+        // (NOTE: no need to free the memory because we used a single-frame allocator) 
+    } 
+    // janitor pops allocator when it drops out of scope // do more work...
+}
+```
+
