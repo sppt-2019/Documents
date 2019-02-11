@@ -1,7 +1,7 @@
-# Pratical Stuff:
+# Practical Stuff:
 
-- Tuesday is reserved for external work
-- Tobias has company-wide stand up Monday at 10.00
+- Thursday is reserved for external work
+- Tobias has company-wide stand up Monday at 9.00
 - Working days are other days from 8.00 to 15.00
 - We operate with as much flexibility as possible, so changes to working hours are coordinated on a daily basis
 - In case of remote work we will coordinate and distribute tasks that are to be completed
