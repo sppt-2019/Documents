@@ -4,6 +4,8 @@ The attached image gives an overview of our plans for this semester. The blue no
   * Modification &nbsp; 30%
   * Verification &nbsp;&nbsp;&nbsp; 40%
 
+[Live Version](https://github.com/sppt-2019/Documents/blob/master/Direction/Direction.md)
+
 ## Research
   - __Science and Industry__
     * Compare the architecture described in academic litterature with that of open source engines.
