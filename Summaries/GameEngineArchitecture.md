@@ -52,3 +52,24 @@ void f() {
 }
 ```
 
+**Error handling**: The author advices against using logging functionality to raise awareness on "creative" assets, such as meshes, as they are far too easy to miss. He instead suggests painting a big red box in the world whenever the mesh should have rendered. He argues that a game engine must be robust to programmatic errors, as developer-time is too valuable.
+
+**Assertions:** The author states that assertions are the key to writing good code, as they cause bugs to manifest quicker. He states that the C assertion library may be used, but also provides an implementation of a finer-grained assertion library, that is more suited for game development:
+```C++
+#if ASSERTIONS_ENABLED
+// define some inline assembly that causes a break
+// into the debugger -- this will be different on each
+// target CPU
+#define debugBreak () asm { int 3 } 
+// check the expression and fail if it is false 
+#define ASSERT (expr) \
+    if (expr) { } \
+    else \
+    { \
+        reportAssertionFailure (#expr, \ __FILE__,  __LINE__); \
+        debugBreak ();\
+    }
+#else 
+#define ASSERT (expr) // evaluates to nothing 
+#endif
+```
