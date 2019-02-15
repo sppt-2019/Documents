@@ -73,3 +73,4 @@ void f() {
 #define ASSERT (expr) // evaluates to nothing 
 #endif
 ```
+It is very important to define the `ASSERT`-macro using a full if-else statement, as it would otherwise risk breaking code when expanded within an if-statement.
