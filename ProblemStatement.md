@@ -61,8 +61,21 @@ Optional, but nice:
 - Functional Programming/F# experience
  
  ## Test Cases
-Magnetic objects: A list of objects, some of them magnetic. All magnetic objects should be attracted to a common center-point with a given magnetic factor. *(We should probably provide the formula to find center-point of 3D vectors)*
 
-Move towards: Given an object and a destination, rotate the object towards the object and move it forward.
-
-Jump: Have a characted jump by applying upwards force to his rigidbody.
+- **Magnetic objects:** A list of objects, some of them magnetic. All magnetic objects should be attracted to a common center-point with a given magnetic factor. *(We should probably provide the formula to find center-point of 3D vectors)*
+- **RTS State Machine:** Create an *upside-down* state machine that holds references to the objects in the current state. The state machine should invoke its behaviour on each element in the state on every frame. This could be an archer AI, that can:
+    - Move to a position in the world
+    - Shoot at an object in the world
+    - Flee when enemies are too close
+- **FPS Controller:** Create a FPS controller that moves a character forwards on W, backwards on S, left on D and right on A. The controller should look around when the mouse is moved.
+- **3rd Person Controller:** Create a 3rd person controller that moves a character forwards on W, backwards on S, left on D and right on A. The camera should rotate around the character when the mouse is moved.
+- **Talent Tree Walker:** Given a tree of talens or perks, create a tree walker that can traverse the tree and reduce all effects of perks into a single object. Effects could include:
+    - Strength
+    - Intellect
+    - Agility
+- **Dialog Tree:** Build a dialog tree for a conversation. The nodes of the tree should hold things said by the NPC and edges hold things the player says. The leaves of the tree holds consequences of the dialog, which could be:
+    - NPC turns hostile
+    - NPC becomes your companion
+    - The NPC gives you an item
+- **Armour Graph:** Create an armour system for a RPG. In this system groups of items give perks to one-another. Example: Helm, chest plate and amulet is an item group. The player equips an amulet, which gives +10% stats to all items in group. The stat bonus of the helm and chest plate should increase by 10%.
+- **Resource Splitting and Merging:** Create a resource system where several minor resources may be combined into larger resources and later split, if needed. Create a system that, given a collection of items, combines them into the largest possible resource type.
