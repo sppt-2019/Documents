@@ -1,11 +1,18 @@
 # Udstyr din Karakter
 
+<div style="display:flex">
+<div>
+    
 I denne opgaver skal vi udstyre vores karakter med rustning, våben og smykker. Hver af disse tilføjer en bonus til karakteren i en eller flere af de tre følgende attributter:
 - Intellect
 - Strength
 - Agility
+</div>
 
-<img src="images/inventory.png" style="width: 200px; margin: auto; text-align: center; display: block;"/>
+<div>
+    <img src="images/inventory.png" style="width: 200px; margin: auto; text-align: center; display: block;"/>
+</div>
+</div>
 
 Spilleren kan være udstyret med følgende:
 - Hjelm
