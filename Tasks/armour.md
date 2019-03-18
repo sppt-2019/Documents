@@ -7,9 +7,10 @@ I denne opgaver skal vi udstyre vores karakter med rustning, våben og smykker. 
 - Intellect
 - Strength
 - Agility
+
 </div>
 
-<div>
+<div style="float:left">
     <img src="images/inventory.png" style="width: 200px; margin: auto; text-align: center; display: block;"/>
 </div>
 </div>
