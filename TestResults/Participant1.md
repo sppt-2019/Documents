@@ -2,7 +2,7 @@
 ## IDE: Visual Studio
 ---
 
-#### F# Task 1: First Person Controller
+### F# Task 1: First Person Controller
 * 02:17 Opened wrong IDE
 * 03:57 Explicitly defined the velocity variable's type, wasn't sure if it was necessary (it was)
 * 04:30 Progressed to assignment 2
@@ -39,7 +39,7 @@
 * 44:30 Add new Vector as force instead of as new position
 * 47:43 Task complete
 
-#### C# Task 1: Third Person Controller
+### C# Task 1: Third Person Controller
 * 50:34 Declare variables can be edited in the editor
 * 51:04 Solution using `GetKeyDown` in `update`
 * 51:30 Using `RigidBody` to apply force
@@ -58,7 +58,7 @@
 * 1:05:45 Not sure how to proceed
 * 1:10:17 Mouse move works
 
-#### FRP
+### FRP
 * Can see the idea behind it
 * More readable code
 * Forces much more readable code (and modular)
