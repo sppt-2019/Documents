@@ -1,6 +1,5 @@
 # Participant 1
-## F# First
-### IDE: Visual Studio
+## IDE: Visual Studio
 ---
 
 #### F# Task 1: First Person Controller
@@ -40,7 +39,7 @@
 * 44:30 Add new Vector as force instead of as new position
 * 47:43 Task complete
 
-#### C# Task 1: Thirds Person Controller
+#### C# Task 1: Third Person Controller
 * 50:34 Declare variables can be edited in the editor
 * 51:04 Solution using `GetKeyDown` in `update`
 * 51:30 Using `RigidBody` to apply force
@@ -51,3 +50,22 @@
 * 55:00 Assignment 1 complete
 * 55:12 Work on mouse movement
 * 56:34 Get current mouse position and an original mouse position, calculate delta every frame
+* 57:37 Reminded of which axises to rotate around
+* 59:12 _I have never really implemented game controllers before_
+* 1:01:20 Controller rotates around itself
+* 1:03:10 When mouse delta is zero the angle becomes zero and the method doesn't add rotation, but sets it
+* 1:04:40 It _is_ an incremental angle, just not enough
+* 1:05:45 Not sure how to proceed
+* 1:10:17 Mouse move works
+
+#### FRP
+* Can see the idea behind it
+* More readable code
+* Forces much more readable code (and modular)
+* F# syntax was problematic
+* Prefers strictly typed (_F# is strictly typed_, but inferred)
+* Would not use it for production
+  * Too used to C#
+  * F#
+    * What about implicit parallelisation
+  * Likes FRP
