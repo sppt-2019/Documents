@@ -2,7 +2,7 @@
 ## IDE: Visual Studio
 ---
 
-### F# Task 1:
+### F# Task 1: Magnatism
 * 02:41 First solution to task using `update`
 * 02:43 Shown FRP documentation
 * 03:44 Expresses understanding of `ReactTo<>` and handlers
@@ -29,7 +29,7 @@
 * 33:30 assignment complete
 * 45:20 assignment complete, but it can't run in Unity
 
-### C# Task 1:
+### C# Task 1: Unit Management
 * 49:22 Given information about shooter states
 * 49:40 Suggests either using a list for each possible state
 * 52:17 Missing break statement __hint__
