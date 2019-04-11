@@ -28,7 +28,7 @@
 * 58:22 Participant asked how to append/concatenate arrays
 * 58:48 Monitor suggested using `array.ToList()` so that list functions could be applied
 * 59:52 Participant next strategy is to flatten the tree into a single list
-* 1:02:55 Monitor gave hint for the participants recursive function (__hint__)
+* 62:55 Monitor gave hint for the participants recursive function (__hint__)
 
 ### FRP
 * Exciting

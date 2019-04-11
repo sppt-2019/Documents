@@ -52,11 +52,11 @@
 * 56:34 Get current mouse position and an original mouse position, calculate delta every frame
 * 57:37 Reminded of which axises to rotate around
 * 59:12 _I have never really implemented game controllers before_
-* 1:01:20 Controller rotates around itself
-* 1:03:10 When mouse delta is zero the angle becomes zero and the method doesn't add rotation, but sets it
-* 1:04:40 It _is_ an incremental angle, just not enough
-* 1:05:45 Not sure how to proceed
-* 1:10:17 Mouse move works
+* 61:20 Controller rotates around itself
+* 63:10 When mouse delta is zero the angle becomes zero and the method doesn't add rotation, but sets it
+* 64:40 It _is_ an incremental angle, just not enough
+* 65:45 Not sure how to proceed
+* 70:17 Mouse move works
 
 ### FRP
 * Can see the idea behind it

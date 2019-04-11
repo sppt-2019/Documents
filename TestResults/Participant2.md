@@ -33,9 +33,9 @@
 * 49:22 Given information about shooter states
 * 49:40 Suggests either using a list for each possible state
 * 52:17 Missing break statement __hint__
-* 1:01:30 assignment complete __Test Setup Error__
-* 1:07:04 _Kæden er hoppet helt af nu_ Parallelisation confusion
-* 1:11:45 Code example should be easier to understand
+* 61:30 assignment complete __Test Setup Error__
+* 67:04 _Kæden er hoppet helt af nu_ Parallelisation confusion
+* 71:45 Code example should be easier to understand
 
 ### FRP
 * Exciting new environment
