@@ -2,6 +2,8 @@
 ## IDE: Visual Studio
 ---
 
+<!-- ReactTo__ ReactTo- List_ List- Types- -->
+
 ### F# Task 1: Magnatism
 * 02:41 First solution to task using `update`
 * 02:43 Shown FRP documentation

@@ -2,6 +2,8 @@
 ## IDE: Visual Studio
 ---
 
+<!-- List__ Types- Modularity+ -->
+
 ### F# Task 1: Dialogue
 * 01:54 Monitor clarifies the assignments (__hint__)
 * 02:50 Participant would parse the node list as a small language and use a function to acquire the correct output (__interesting__)

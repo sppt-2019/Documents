@@ -2,6 +2,8 @@
 ## IDE: Visual Studio
 ---
 
+<!-- Types+ ReactTo++ Types-- -->
+
 ### F# Task 1: Magnetism
 * 02:20 Clarification of sequential/parallel vs synchronous/asynchronous
 * 03:50 Participants first strategy would be to create a class and attach it to all objects

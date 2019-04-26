@@ -2,6 +2,8 @@
 ## IDE: Visual Studio
 ---
 
+<!-- List+ List_ List-- Types-- Modularity+ -->
+
 ### F# Task 1: Armour Graph
 * 01:49 Participant pointed out that the example code given was C#
 * 03:18 Participant begins
