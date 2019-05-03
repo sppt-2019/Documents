@@ -2,6 +2,8 @@
 ## IDE: Visual Studio
 ---
 
+<!-- Types+ ReactTo_ ReactTo- Types-- -->
+
 ### F# Task 1: Dialogue -> FPS Controller
 * 04:25 Participant is given a hint about how to make class equivalents in F# (__hint__)
 * 06:10 Difference between functions and methods is clarified (__hint__)
